@@ -8,7 +8,7 @@ getTemp.addEventListener("click", (e) => {
   if (input.value === "") return (para.innerHTML = "input is empty");
 
   const location = input.value;
-  const url = `http://localhost:3000/weather/?location=${location}`;
+  const url = `/weather/?location=${location}`;
 
   para.textContent = "Loading...";
 
